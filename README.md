@@ -4,7 +4,7 @@ Using DiscoGAN to generate image of how houses and landscapes would look like af
 
 ----------------
 
-<img src="assets/hous2dis.png" width="600px">
+<img src="assets/hous2dis.png" width="400px">
 
 ## Prerequisites
 -------------
