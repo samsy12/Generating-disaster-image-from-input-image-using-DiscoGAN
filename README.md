@@ -4,13 +4,11 @@
 
 Using DiscoGAN to generate image of how houses and landscapes would look like after a natural disaster make people realize the personal cost they might have to pay due to climate change
 
-The code is in the form of a notebook and can be run as it is on Google colab. Some cells need not be run/ must be changed for running elsewhere.
- 
 =========================================
 
 <img src="assets/hous2dis.png" width="600px">
 
-##Prerequisites
+## Prerequisites
 -------------
    - Python 3.7.10
    - PyTorch
@@ -19,7 +17,7 @@ The code is in the form of a notebook and can be run as it is on Google colab. S
    - OpenCV
 ----------------
 
-##Loading dataset
+## Loading dataset
 ----------------
 Run the following code snippet in the notebook
 
@@ -35,19 +33,16 @@ in "houses" directory
 
 		https://www.kaggle.com/mikolajbabula/disaster-images-dataset-cnn-model
 
-**Only the earthquake images** in "disasters" directory
+**Only the earthquake images** 
+in "disasters" directory
 ----------------
  
-##Training DiscoGAN
+## Training DiscoGAN
 ----------------
 Run the cells in the notebook (./discogan/model notebook) in order.
 ----------------
 
-##Results
+## Results
 ----------------
 The training data is described above and we used random images of houses from Google for testing. Some of the generated images are shown above.
 ----------------
-
-##Purpose
-----------------
-Climate change will eventually affect all 7 billion of us on Earth. Yet, only a small fraction of people realize the urgency to act. This project is an attempt to help people visualize how the places they love would look, if climate change continues. It is said, "a picture is worth a thousand words", so, seeing these generated images might work the magic on some minds that a world wide web full of statistics could not. :)
